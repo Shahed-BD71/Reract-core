@@ -11,14 +11,6 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
 
       <Counter></Counter>
       <Users></Users>
@@ -31,7 +23,6 @@ function App() {
         products.map(product => <li>{product.name}</li>)
       }
       </ul>
-
         {
           products.map(product => <Product product={product}></Product>)
         }
